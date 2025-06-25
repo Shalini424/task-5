@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Modern Shop</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+
+  <header class="header">
+    <div class="container header-container">
+      <h1 class="logo">🛍️ Modern Shop</h1>
+      <nav class="nav">
+        <input type="search" id="search-box" class="search-input" placeholder="Search products..." aria-label="Search products" />
+        <a href="#" class="nav-link">Home</a>
+        <a href="cart.html" class="nav-link">
+          View Cart (<span id="cart-count">0</span>)
+        </a>
+      </nav>
+    </div>
+  </header>
+
+  <section class="hero">
+    <img
+      src="https://cdn.vectorstock.com/i/500p/57/56/shopping-cart-banner-online-store-vector-42935756.jpg"
+      alt="Shopping Banner"
+      class="hero-img"
+    />
+    <div class="hero-content container">
+      <h2>Discover Deals That Delight</h2>
+      <p>Shop the latest gadgets, accessories, and more.</p>
+      <a href="#product-list" class="btn btn-primary">Shop Now</a>
+    </div>
+  </section>
+
+  <main class="container" id="product-list">
+    <!-- Products will be dynamically injected here -->
+  </main>
+
+  <footer class="footer">
+    <div class="container">
+      <p>© 2025 Modern Shop. All rights reserved.</p>
+    </div>
+  </footer>
+
+  <script src="script.js" defer></script>
+</body>
+</html>
